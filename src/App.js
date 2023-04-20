@@ -253,10 +253,10 @@ function App() {
   return (
     <div className='container'>
       <h1 className="headerText">Text-To-Graph Using ChatGPT </h1>
-      <p className='subheaderText'>The project is to convert text into a graph of objects and their relationships.It has the potential to revolutionize the way we interact with natural language text and extract valuable insights from it.</p>
+      <p className='subheaderText'>The project is to convert text into a graph of objects and their relationships. It has the potential to revolutionize the way we interact with natural language text and extract valuable insights from it.</p>
       <center>
         <div className='inputContainer'>
-          <input className="searchBar" placeholder="Write text to convert into graph..."></input> {/* Displays the input field for the user to enter the graph prompt*/}
+          <input className="searchBar" placeholder="Enter text..."></input> {/* Displays the input field for the user to enter the graph prompt*/}
           <input className="apiKeyTextField" type="password" placeholder="Enter your OpenAI API key..."></input> {/* Displays the input field for the user to enter the OpenAI API key*/}
           <button className="generateButton" onClick={createGraph}>Generate</button> {/* Displays the button to generate the graph*/}
           <button className="clearButton" onClick={clearState}>Clear</button> {/* Displays the button to clear the current graph state*/}
